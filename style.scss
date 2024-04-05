@@ -1,0 +1,19 @@
+#elipsa {
+  width: 200px; /* Širina elipse */
+  height: 100px; /* Visina elipse */
+  background-color: red; /* Boja pozadine */
+  border-radius: 50%/50%;
+}
+img {
+  width: 100px;
+  height: 100px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+h1::before {
+  content: "Upamti:";
+  color: red;
+  background-color: yellow;
+}

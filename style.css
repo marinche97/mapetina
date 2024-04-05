@@ -1,0 +1,42 @@
+@charset "UTF-8";
+#elipsa {
+  width: 200px; /* Širina elipse */
+  height: 100px; /* Visina elipse */
+  background-color: red; /* Boja pozadine */
+  border-radius: 50%/50%;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+
+h1::before {
+  content: "Upamti:";
+  color: red;
+  background-color: yellow;
+}
+
+article {
+  border: 3px solid black;
+  background-color: rgb(235, 233, 233);
+  width: 350px;
+  padding: 30px;
+  font-size: larger;
+  text-align: justify;
+  margin: auto;
+}
+
+section {
+  padding: 30px 60px;
+  background-color: rgb(235, 233, 233);
+  border-left: double 10px black;
+  border-right: dashed 5px black;
+  text-align: justify;
+  width: 25%;
+  margin-left: 68%;
+}
+/*# sourceMappingURL=style.css.map */
